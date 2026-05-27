@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	</head>
+	<style>
+		*{
+			margin: 0;
+			font-family: sans-serif;
+			box-sizing: border-box;
+		}
+
+		.navbar{
+			background: #0f0f0f;
+			padding: 25px;
+			color: white;
+		}
+
+		.logo{
+			float: left;
+			text-decoration: none;
+			color: white;
+		}
+
+		.dots{
+            float: right;
+			text-decoration: none;
+			color: white;
+		}
+
+		.parent1{
+			background:#0f0f0f;
+			padding: 10px;
+			color: white;
+		}
+
+		.parent1 h3{
+			padding: 10px;
+		}
+
+		.general{
+			width: 100%;
+			background: #1a1a1a;
+		}
+
+		.H{
+			text-align: left;
+			color: white;
+			padding: 20px;
+		}
+
+		.core-services{
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			color: white;
+
+		}
+
+		.child1{
+		
+			padding: 28px 18px;
+			border-radius: 12px;
+			border: 1px solid grey;
+			background: #1e88e5;
+			color: white;
+			text-align: left;
+			margin: 0 15px;
+		}
+
+		.child1:hover{
+			transform: translateY(-10px);
+			transition: .4s linear;
+			opacity: .9;
+		}
+
+		.child2{
+	
+			padding: 28px 18px;
+			border-radius: 12px;
+			border: 1px solid grey;
+			background:#26a69a;
+			color: white;
+			text-align: left;
+			margin: 0 15px;
+		}
+
+		.child3{
+			width:;
+			padding: 28px 18px;
+			border-radius: 12px;
+			border: 1px solid grey;
+			background:#f4511e;
+			color: white;
+			text-align: left;
+			margin: 0 15px;
+		}
+
+		.button1{
+			margin: 15px;
+			width: 180px;
+			background: #1e88e5;
+			border-radius: 6px;
+			border: 1px solid white;
+			color: white;
+		}
+
+		.button2{
+			margin: 15px;
+			width: 180px;
+			background:#26a69a;
+			border-radius: 6px;
+			border: 1px solid white;
+			color: white;
+		}
+
+		.button3{
+			margin: 15px;
+			width: 180px;
+			background:#f4511e;
+			border-radius: 6px;
+			border: 1px solid white;
+			color: white;
+		}
+
+		.Specialized-services{
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			color: white;
+		}
+
+		.child4{
+			background: grey;
+			width: 280px;
+			border-radius: 6px;
+			margin: 0 15px;
+			
+		}
+
+		.How-i-work{
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+		}
+
+		.child6{
+            background:#7c4dff;
+			width: 90%;
+			border-radius: 6px;
+			margin: 0 20px;
+		}
+
+		.child7{
+            background:#43a047;
+			width: 100%;
+			border-radius: 6px;
+		
+
+		}
+
+		.child8{
+            background:#f57c00;
+			width: 90%;
+			border-radius: 6px;
+			margin: 0 20px;
+		}
+
+		.Lets-discuss-your-project{
+			background:#1565c0;
+			color: white;
+			padding: 20px;
+			margin: 20px;
+			border-radius: 10px;
+			border: 1px solid white;
+		}
+
+		.schedule-call{
+			background:lightblue;
+			width: 100px;
+			border-radius: 8px;
+			border: 1px solid white;
+			cursor: pointer;
+		}
+
+		.Evans1{
+			background: grey;
+				color: white;
+				border: 2px solid white;
+		}
+
+		.Evans{
+           text-align: left;
+           padding: 2px;
+		}
+
+		.Socials{
+			float: right;
+			 padding: 0 2px;
+		}
+
+	</style>
+
+	<body>
+		<center>
+		<nav class="navbar">
+			<a class="logo" href="">Logo</a>
+			<a class="dots" href="">&#8230;</a>
+		</nav>
+
+		<div class="parent1">
+
+			<h3>Services & expertise</h3>
+			<h5>What I can help you with</h5>
+
+		</div>
+
+		<div class="general">
+			
+			<h5 class="H">core service</h5>
+
+             <div class="core-services">
+
+			<div class="child1">
+			<h4>Service 1</h4>
+			<p>key features and</p>
+			<p>benefits of this</p>
+			<p>service offering</p>
+			<button class="button1">Learn more</button>
+			</div>
+
+            <div class="child2">
+			<h4>Service 1</h4>
+			<p>key features and</p>
+			<p>benefits of this</p>
+			<p>service offering</p>
+			<button class="button2">Learn more</button>
+			</div>
+
+			<div class="child3">
+			<h4>Service 1</h4>
+			<p>key features and</p>
+			<p>benefits of this</p>
+			<p>service offering</p>
+			<button class="button3">Learn more</button>
+			</div>
+
+		</div>
+
+		<h5 class="H">Specialized services</h5>
+
+		<div class="Specialized-services">
+
+             <div class="child4">
+			<h4>Specialized services A</h4>
+			<p>Brief description of what this entails <p>and how it benefits clients</p></P>
+		    </div>
+            
+            <div class="child4">
+			<h5>Specialized services B</h5>
+			<p>Brief description of what this entails <p>and how it benefits clients</p></P>
+		    </div>
+
+		</div>
+          
+         <h5 class="H">How I Work</h5>
+
+		<div class="How-i-work">
+            
+            <div class="child6">
+            <h4>1. Discovery</h4>
+            <p>understand your goals & needs</p>
+        </div>
+
+        <div class="child7">
+            <h4>2.Strategy</h4>
+            <p>understand the approach</p>
+            <p>and timeline</p>
+        </div>
+
+          <div class="child8">
+            <h4>3.Execution</h4>
+            <p>Build & deliver</p>
+            <p>the solution</p>
+        </div>
+
+		    </div>
+
+        <div class="Lets-discuss-your-project">
+
+        	<h5>Let's discuss your project</h5>
+        	<p>Get a free consultation to determine the best approach</p>
+        	<button class="schedule-call">schedule call</button>
+        </div>
+
+        <div class="Evans1">
+        	<p class="Evans">@2024 Evans.All rights reserved.<span class="Socials">Socials</span></p>
+
+        </div>
+
+		</div>
+	</center>
+	</body>
+</html>
